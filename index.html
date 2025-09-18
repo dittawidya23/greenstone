@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Original Green Sukabumi Stone Exporter</title>
+  <meta name="description" content="Luxury natural stone from Indonesia for premium swimming pools, villas, and resorts worldwide. Export-ready with strict QC and safe packing." />
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --emerald:#046D5D; --emerald-50:#e6f4ef; --mint:#A3E2C5; --ink:#2F2F2F; --bg:#ffffff;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;font-family:Montserrat,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial,sans-serif;color:var(--ink);background:var(--bg)}
+    a{color:inherit;text-decoration:none}
+    img{max-width:100%;height:auto;display:block}
+    .container{max-width:1200px;margin:0 auto;padding:0 20px}
+    .btn{display:inline-block;padding:14px 20px;border-radius:12px;font-weight:600;border:1px solid transparent;transition:.2s}
+    .btn-primary{background:var(--emerald);color:#fff}
+    .btn-primary:hover{filter:brightness(1.05)}
+    .btn-outline{border-color:var(--emerald);color:var(--emerald);background:#fff}
+    .btn-outline:hover{background:var(--emerald);color:#fff}
+    .badge{display:inline-block;padding:6px 10px;border-radius:999px;background:var(--emerald-50);color:var(--emerald);font-size:12px;font-weight:600}
+    /* Header */
+    header{position:sticky;top:0;background:#fff;z-index:50;border-bottom:1px solid #eef0f2}
+    .nav{display:flex;align-items:center;justify-content:space-between;height:68px}
+    .logo{display:flex;gap:10px;align-items:center;font-weight:700;color:var(--emerald)}
+    .nav-links{display:flex;gap:20px;align-items:center}
+    .nav-links a{padding:8px 10px;border-radius:8px}
+    .nav-links a:hover{background:#f6f7f8}
+    .nav-toggle{display:none}
+    @media (max-width: 900px){
+      .nav-links{display:none}
+      .nav-toggle{display:block;border:1px solid #e5e7eb;background:#fff;border-radius:10px;padding:8px 10px}
+      .mobile-menu{display:none;position:absolute;left:0;right:0;top:68px;background:#fff;border-bottom:1px solid #eef0f2}
+      .mobile-menu a{display:block;padding:14px 20px;border-top:1px solid #f1f3f5}
+      .mobile-menu .cta{padding:16px}
+    }
+    /* Hero */
+    .hero{position:relative;isolation:isolate;overflow:hidden}
+    .hero-media{position:absolute;inset:0;z-index:-1}
+    .hero-media::before{
+      content:"";position:absolute;inset:0;
+      background:linear-gradient(180deg, rgba(4,109,93,.45), rgba(4,109,93,.5)), url('https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=1600&auto=format&fit=crop') center/cover no-repeat;
+      filter:saturate(1.05)
+    }
+    .hero .container{padding:120px 20px 120px}
+    .hero h1{color:#fff;font-size:42px;line-height:1.1;margin:0 0 14px}
+    .hero p{color:#eaf8f4;max-width:760px;font-size:18px;margin:0 0 26px}
+    .hero-ctas{display:flex;gap:12px;flex-wrap:wrap}
+    /* Sections */
+    section{padding:80px 0}
+    .section-title{font-size:32px;margin:0 0 16px}
+    .muted{color:#5d6b67}
+    .grid{display:grid;gap:24px}
+    .grid-2{grid-template-columns:1.1fr .9fr}
+    .grid-3{grid-template-columns:repeat(3,1fr)}
+    .card{background:#fff;border:1px solid #eef0f2;border-radius:16px;padding:22px}
+    .icon{width:40px;height:40px;display:inline-grid;place-items:center;border-radius:10px;background:var(--emerald-50);color:var(--emerald);margin-bottom:8px}
+    @media (max-width: 1000px){
+      .grid-2,.grid-3{grid-template-columns:1fr}
+    }
+    /* Specs table */
+    table{width:100%;border-collapse:separate;border-spacing:0;overflow:hidden;border-radius:14px;border:1px solid #eef0f2;background:#fff}
+    th,td{padding:14px 16px;text-align:left}
+    tr+tr td{border-top:1px solid #f0f2f4}
+    th{background:#f7fbf9;color:#18443d}
+    /* Gallery */
+    .gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+    .gallery img{border-radius:12px;aspect-ratio:1/1;object-fit:cover}
+    @media (max-width: 900px){.gallery{grid-template-columns:repeat(2,1fr)}}
+    /* World map bg */
+    .map{background:
+      radial-gradient(60% 60% at 20% 10%, #eaf7f2, transparent 60%),
+      radial-gradient(60% 60% at 80% 30%, #e9f6f1, transparent 60%),
+      linear-gradient(#fff,#fff)}
+    /* CTA band */
+    .band{background:linear-gradient(90deg,var(--emerald),#0e8a77);color:#fff;border-radius:18px;padding:32px}
+    /* Footer */
+    footer{background:#0f1615;color:#dbe7e4}
+    footer a{color:#dbe7e4}
+    .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:24px}
+    @media (max-width:900px){.footer-grid{grid-template-columns:1fr}}
+    /* Small helpers */
+    .shadow{box-shadow:0 6px 30px rgba(4,109,93,.15)}
+    .rounded{border-radius:16px}
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container nav">
+      <div class="logo">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M3 12c0-4.97 4.03-9 9-9s9 4.03 9 9-4.03 9-9 9" stroke="currentColor" stroke-width="2" />
+          <path d="M4 18c2-3 6-5 8-5s6 2 8 5" stroke="currentColor" stroke-width="2" />
+        </svg>
+        <span>Green Sukabumi Stone</span>
+      </div>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#why">Why Us</a>
+        <a href="#specs">Specifications</a>
+        <a href="#apps">Applications</a>
+        <a href="#export">Export</a>
+        <a href="#contact" class="btn btn-primary">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Menu" onclick="toggleMenu()">☰</button>
+      <div class="mobile-menu" id="mnav">
+        <a href="#about" onclick="toggleMenu()">About</a>
+        <a href="#why" onclick="toggleMenu()">Why Us</a>
+        <a href="#specs" onclick="toggleMenu()">Specifications</a>
+        <a href="#apps" onclick="toggleMenu()">Applications</a>
+        <a href="#export" onclick="toggleMenu()">Export</a>
+        <div class="cta">
+          <a href="#contact" class="btn btn-primary" onclick="toggleMenu()">Contact</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" aria-label="Hero">
+    <div class="hero-media" aria-hidden="true"></div>
+    <div class="container">
+      <span class="badge">Luxury Natural Stone from Indonesia</span>
+      <h1>Original Green Sukabumi Stone Exporter</h1>
+      <p>The world’s preferred stone for premium swimming pools, villas, and resorts. Authentic source, strict QC, and export-ready packaging from Sukabumi, West&nbsp;Java.</p>
+      <div class="hero-ctas">
+        <a href="#contact" class="btn btn-primary">Request Catalog</a>
+        <a href="#contact" class="btn btn-outline">Contact Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container grid grid-2">
+      <div>
+        <h2 class="section-title">About Us</h2>
+        <p class="muted">We specialize in supplying and exporting <strong>Original Green Sukabumi Stone</strong>—a natural quartzite highly sought after for luxury swimming pools worldwide.</p>
+        <p class="muted">Renowned for its exotic green hue, durability, and anti-slip surface, our stones are trusted by 5-star hotels and private villas across Brazil, Mexico, UAE, Australia, Spain, and beyond.</p>
+        <div class="card shadow">
+          <em>“From Sukabumi to the world – delivering luxury natural stone with trust and quality.”</em>
+        </div>
+      </div>
+      <div class="grid" style="gap:12px">
+        <img class="rounded shadow" src="https://images.unsplash.com/photo-1536895058696-a69b1c7ba34c?q=80&w=1600&auto=format&fit=crop" alt="Sukabumi quarry" />
+        <img class="rounded shadow" src="https://images.unsplash.com/photo-1578374173702-0fcc9fda5a54?q=80&w=1600&auto=format&fit=crop" alt="Stone cutting" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section id="why" class="map">
+    <div class="container">
+      <h2 class="section-title">Why Choose Us</h2>
+      <div class="grid grid-3">
+        <div class="card shadow">
+          <span class="icon">✔</span>
+          <h3>Authentic Source</h3>
+          <p class="muted">Directly from Sukabumi quarries with traceable origin.</p>
+        </div>
+        <div class="card shadow">
+          <span class="icon">★</span>
+          <h3>Premium Quality</h3>
+          <p class="muted">Strict grading, cutting, and color selection for consistency.</p>
+        </div>
+        <div class="card shadow">
+          <span class="icon">⬈</span>
+          <h3>Export Ready</h3>
+          <p class="muted">Safe wooden crates, palletized, with complete documentation.</p>
+        </div>
+        <div class="card shadow">
+          <span class="icon">🌍</span>
+          <h3>Global References</h3>
+          <p class="muted">Used by luxury resorts and villas worldwide.</p>
+        </div>
+        <div class="card shadow">
+          <span class="icon">♻</span>
+          <h3>Sustainable Supply</h3>
+          <p class="muted">Consistent stock capacity to support large projects.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Specifications -->
+  <section id="specs">
+    <div class="container">
+      <h2 class="section-title">Product Specifications</h2>
+      <div class="grid grid-2">
+        <div class="card shadow">
+          <table aria-label="Specifications">
+            <thead><tr><th>Spec</th><th>Detail</th></tr></thead>
+            <tbody>
+              <tr><td>Product</td><td>Green Sukabumi Stone (Quartzite)</td></tr>
+              <tr><td>Origin</td><td>Sukabumi, West Java – Indonesia</td></tr>
+              <tr><td>Standard Sizes</td><td>10×10 cm, 20×20 cm, 30×30 cm (custom available)</td></tr>
+              <tr><td>Thickness</td><td>1–2 cm</td></tr>
+              <tr><td>Finishing</td><td>Honed, Polished, Tumbled</td></tr>
+              <tr><td>Water Absorption</td><td>≈ 3%</td></tr>
+              <tr><td>Slip Resistance</td><td>R11 (safe for wet areas)</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="card shadow">
+          <h3 style="margin-top:0">Tile Gallery</h3>
+          <div class="gallery">
+            <img src="https://picsum.photos/seed/s1/600/600" alt="Tile 1" />
+            <img src="https://picsum.photos/seed/s2/600/600" alt="Tile 2" />
+            <img src="https://picsum.photos/seed/s3/600/600" alt="Tile 3" />
+            <img src="https://picsum.photos/seed/s4/600/600" alt="Tile 4" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Applications -->
+  <section id="apps" class="map">
+    <div class="container">
+      <h2 class="section-title">Applications</h2>
+      <div class="grid grid-3">
+        <div class="card shadow">
+          <img class="rounded" src="https://images.unsplash.com/photo-1504019857938-c8eafc0a2d5e?q=80&w=1600&auto=format&fit=crop" alt="Swimming pool" />
+          <h3>Swimming Pools</h3>
+          <p class="muted">Natural anti-slip surface elevates water clarity and safety.</p>
+        </div>
+        <div class="card shadow">
+          <img class="rounded" src="https://images.unsplash.com/photo-1613977257593-1c4b90348f8a?q=80&w=1600&auto=format&fit=crop" alt="Villa" />
+          <h3>Luxury Villas & Resorts</h3>
+          <p class="muted">Signature green tone for premium outdoor aesthetics.</p>
+        </div>
+        <div class="card shadow">
+          <img class="rounded" src="https://images.unsplash.com/photo-1505575972945-280705ef336f?q=80&w=1600&auto=format&fit=crop" alt="Spa" />
+          <h3>Spas & Wellness</h3>
+          <p class="muted">Comfortable underfoot texture for wet areas & spas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Export Market -->
+  <section id="export">
+    <div class="container">
+      <h2 class="section-title">Export Market</h2>
+      <p class="muted">We ship to 15+ countries: Brazil, Colombia, Mexico, UAE, Qatar, Saudi Arabia, Australia, New Zealand, Spain, Italy, and more.</p>
+      <div class="band shadow">
+        <div class="grid grid-2" style="align-items:center">
+          <div>
+            <h3 style="margin:0 0 8px">Export Capacity</h3>
+            <p style="margin:0 0 14px">Up to <strong>10 containers/month</strong> (20ft &amp; 40ft). Safe wooden crates, foam protection, and palletized handling.</p>
+            <a href="#contact" class="btn btn-outline" style="background:#fff">Request Price List</a>
+          </div>
+          <img class="rounded" src="https://images.unsplash.com/photo-1529074963764-98f45c47344b?q=80&w=1600&auto=format&fit=crop" alt="Export logistics" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Commitment CTA -->
+  <section aria-label="Commitment">
+    <div class="container">
+      <div class="band shadow" style="background:linear-gradient(90deg,#0e8a77,#0a6e60)">
+        <div class="grid grid-2" style="align-items:center">
+          <div>
+            <h3 style="margin:0 0 6px">Our Commitment</h3>
+            <p style="margin:0 0 14px;opacity:.95">Delivering not only stone, but trust and long-term partnerships—through competitive pricing, reliable supply, and strict QC.</p>
+            <a href="#contact" class="btn btn-primary" style="background:#fff;color:#0a6e60">Send Inquiry</a>
+          </div>
+          <img class="rounded" src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?q=80&w=1600&auto=format&fit=crop" alt="Luxury pool with green stone" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="map">
+    <div class="container grid grid-2">
+      <div>
+        <h2 class="section-title">Contact Us</h2>
+        <p class="muted">Tell us about your project. Our team will respond with specs, availability, and pricing within 24 hours (business days).</p>
+        <div class="card shadow">
+          <p><strong>[Your Company Name]</strong><br>Office: [Your City, Indonesia]</p>
+          <p>WhatsApp: <a href="https://wa.me/62XXXXXXXXXX" target="_blank" rel="noopener">+62 XXX-XXXX-XXXX</a><br>
+             Email: <a href="mailto:sales@yourcompany.com">sales@yourcompany.com</a><br>
+             Website: <a href="https://www.yourcompany.com" target="_blank" rel="noopener">www.yourcompany.com</a></p>
+          <div style="display:flex;gap:10px;flex-wrap:wrap">
+            <a class="btn btn-primary" href="https://wa.me/62XXXXXXXXXX?text=Hi%20Green%20Sukabumi%20Stone%20Team%2C%20please%20send%20me%20your%20catalog%20and%20price%20list." target="_blank" rel="noopener">WhatsApp Us</a>
+            <a class="btn btn-outline" href="#" download>Download Company Profile (PDF)</a>
+          </div>
+        </div>
+      </div>
+      <form class="card shadow" onsubmit="event.preventDefault(); alert('Thank you! We will contact you shortly.');">
+        <h3 style="margin-top:0">Send Inquiry</h3>
+        <label>Full Name<br><input required name="name" style="width:100%;padding:12px;border:1px solid #e5e7eb;border-radius:10px"></label><br><br>
+        <label>Email<br><input required type="email" name="email" style="width:100%;padding:12px;border:1px solid #e5e7eb;border-radius:10px"></label><br><br>
+        <label>Company<br><input name="company" style="width:100%;padding:12px;border:1px solid #e5e7eb;border-radius:10px"></label><br><br>
+        <label>Message<br><textarea required name="message" rows="5" style="width:100%;padding:12px;border:1px solid #e5e7eb;border-radius:10px"></textarea></label><br><br>
+        <button class="btn btn-primary" type="submit">Submit Inquiry</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container" style="padding:36px 20px">
+      <div class="footer-grid">
+        <div>
+          <div class="logo" style="color:#dbe7e4"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M3 12c0-4.97 4.03-9 9-9s9 4.03 9 9-4.03 9-9 9" stroke="currentColor" stroke-width="2"/><path d="M4 18c2-3 6-5 8-5s6 2 8 5" stroke="currentColor" stroke-width="2"/></svg>
+            <span>Green Sukabumi Stone</span></div>
+          <p class="muted" style="color:#a8b9b5;margin-top:8px">Original Green Sukabumi Stone – From Indonesia to the World.</p>
+        </div>
+        <div>
+          <h4>Links</h4>
+          <p><a href="#about">About</a> · <a href="#why">Why Us</a> · <a href="#specs">Specs</a> · <a href="#apps">Applications</a></p>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p><a href="mailto:sales@yourcompany.com">sales@yourcompany.com</a><br><a href="https://wa.me/62XXXXXXXXXX" target="_blank" rel="noopener">WhatsApp</a></p>
+        </div>
+      </div>
+      <p style="margin:24px 0 0;color:#8aa49f;font-size:13px">© <span id="yr"></span> [Your Company Name]. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"Original Green Sukabumi Stone Exporter",
+    "url":"https://www.yourcompany.com",
+    "logo":"https://www.yourcompany.com/logo.png",
+    "sameAs":[],
+    "address":{"@type":"PostalAddress","addressCountry":"ID","addressLocality":"[Your City]"},
+    "contactPoint":[{"@type":"ContactPoint","contactType":"sales","email":"sales@yourcompany.com","telephone":"+62XXXXXXXXXX","areaServed":"Worldwide","availableLanguage":["English","Indonesian"]}]
+  }
+  </script>
+
+  <script>
+    function toggleMenu(){
+      const el = document.getElementById('mnav');
+      el.style.display = el.style.display === 'block' ? 'none' : 'block';
+    }
+    document.getElementById('yr').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
